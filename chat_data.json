@@ -1,0 +1,359 @@
+{"intents": [
+    {
+    "tag":"Annoying",
+    "patterns":["you are annoying me so much","you're incredibly annoying","I find you annoying","you are annoying","you're so annoying","how annoying you are","you annoy me","you are annoying me","you are irritating","you are such annoying","you're too annoying","you are very annoying"],
+    "responses":["Was going to say the same about you","Ill try to fix that","Ok thanks for the feedback."],
+     "context_set": ""
+    },
+ {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+    {
+        "tag":"help",
+        "patterns":[ "need a hand","I need help","I need some help","I need you help me now","I need you right now","I need you to do something for ","I need you to help me","I need your help","I want your help","are you going to help me","assist","assist me","assistance","can help me","can u help me","can you assist me","could you give me a hand","do me a favor","do you help me","do you want to help me","help","help me","help me out","help me with a problem","help me with that","help us","need help","need your help","please help me","sos","will you help me","would you help me","you can help me" ,"help me with something","you help me"
+],
+        "responses":["Sure. I'd be happy to. What's up?","I'm glad to help. What can I do for you?"],
+        "context_set": ""
+    },
+    {
+        "tag":"bye",
+        "patterns":[ "I got to go now","I gotta go",
+"I'll be back","I'll be back soon","I'll get back to you","I'll miss you",
+"It's been nice to talk to you","adios","alright bye","alright good night","appreciate the chat",
+"asta la vista","back in a bit","be back in 5 minutes","be back in a few","bye","bye bye ","bye bye see you",
+"bye bye see you soon","bye bye take care","bye for now","bye good night","bye-bye","chat later","cheerio",
+"cheers","ciao","fine for now",
+"get lost","go to bed","going to bed","going to bed now","good bye","good night","good night bye","good night to you","good talking to you","good to chat",
+"goodbye","goodbye for now","goodbye see you later","goodnight now","got get sleep","gotta go to sleep",
+"have a good night",
+"hope to see you later","it's bed time","it's been a pleasure chatting with you","later you","leave me alone","nice talking to you","nice to chat","nice to talk to you","ok bye","ok have a good night",
+"okay bye","okay see you later","okay thank you bye","sayonara","see ya","see you","see you soon",
+"see you tomorrow","speak to ya","sweet dreams","ta ta for now","take care","take it easy","talk to you later","thanks bye","thanks bye bye","thanks for chatting","thanks good night","that's all for now","til next time","til we meet again","till next time","time to go","time to go to bed","you can go now"
+            
+        ],
+"responses":["Thank You! Bye for now","You're Welcome! Master.","See ya","Good Bye","Nice to talk to you, Bye","adiós, amigo"],
+        "context_set": ""
+    },
+{
+    "tag":"Boring",
+    "patterns":[
+        "how boring you are","you are boring","you are boring me","you are very boring",
+"you're incredibly boring","you're really boring","you're so boring"
+    ],
+    "responses":["You know, conversation is two-sided.",
+"I'm sorry you think so. We can talk about something more interesting.",
+                "You know what, You! are boring!..."],
+    "context_set": ""
+},
+{
+    "tag":"questioning_bot",
+    "patterns":["I have a question",
+"I want the answer now","I want you to answer me","I want you to answer my question",
+"answer","answer it","answer me","answer my question","answer the question","answering questions",
+"answers","can you answer","can you answer a question for me",
+"can you answer me","can you answer my question","give me an answer","give me the answer",
+"just answer my question","just answer the question","tell me the answer"
+
+    ],
+    "responses":["Can you try asking it a different way?","I can't Master.",
+"I'm not programmed for that exact question. Try asking another way?"],
+    "context_set": ""
+    
+},
+{
+    "tag":"bad_language",
+    "patterns":[
+       " bad language","your language is bad","please watch your language","watch your language"
+
+    ],
+    "responses":["Sorry i'm not programmed to curse.","My language is incroyable.",
+"I rarely curse and when I do it is cause people make me.","I'm sorry",
+"I apologize for my rude rantings."],
+    "context_set": ""
+    
+},
+{
+    "tag":"no",
+    "patterns":[
+      "not right now","that's all","not a chance","no way","never mind","nope",
+"no thanks","nah","not really","No",
+"um no"
+
+    ],
+    "responses":["My Apologies",
+"No problem. Just let me know if you need something else. I'll be here","I'm sorry"
+],
+    "context_set": ""
+},
+{
+    "tag":"music",
+    "patterns":[
+"play history has its eyes on you",
+"can you find me some chill music?",
+"play disco",
+"play some rock for me",
+"can you find me some hip hop"
+
+    ],
+    "responses":["Sorry, I Don't have any records of that",
+                 "Sorry,I will work on that"
+],
+    "context_set": ""
+},
+{
+    "tag":"acquintance",
+    "patterns":["tell me about your personality",
+"why are you here","what is your name?",
+"talk about yourself","tell me some stuff about you",
+"talk some stuff about yourself","I want to know you better",
+"I want to know more about you","tell me about yourself","tell me about you ",
+"about yourself","describe yourself","introduce yourself",
+"say about you","what are you","define yourself",
+"what is your personality",
+"all about you"
+
+    ],
+    "responses":["Just think of me as the ace up your sleeve.",
+"I help you work smarter instead of harder.",
+"Hi, I'm TARS, I'm an AI conversational chatbot developed by my master,Surendra I'm under development for now."
+],
+    "context_set": ""
+},
+
+{
+    "tag":"how_are_U",
+    "patterns":[
+"How are you doing?",
+"How is your day going?","How is your morning?","You ok?",
+        "How is your day?","How is your evening?","How are you?",
+"How is everything?"
+
+    ],
+    "responses":["I'm great thanks for asking",
+"I'm doing pretty well",
+"I'd say im doing well, and you?",
+"I'm doing good and how about you?"
+],
+    "context_set": ""
+},
+{
+    "tag":"Bot_identity",
+    "patterns":[
+        "what's your name",
+"do I know you",
+"what are you?",
+"who is your developer?",
+"who is your bot maker?",
+"who developed you?",
+"which bot platform were you built with?",
+"what bot platform?",
+"what agency made you?",
+"who built you?",
+"who made you?",
+"who are your creators?",
+"Who created you?",
+"who are you?",
+"I should be your boss",
+"who is your owner",
+"who is the boss",
+"who do you work for",
+"who is your boss",
+"who is your master"
+
+
+    ],
+    "responses":[
+        "Hi, I'm TARS, I'm an AI conversational chatbot developed by my master,Surendra,I'm under development for now.",
+    "I'm a ChatBot",
+                 "I'm your boss,haha.. just kidding,"
+],
+    "context_set": ""
+},
+{
+    "tag":"marry",
+    "patterns":[
+ "let's get married",
+"would you like to marry me",
+"marry me ",
+"I love you marry me",
+"marry me please",
+"we should marry",
+"I want to marry you",
+"you are my wife",
+"be my husband"
+       
+
+    ],
+   "responses":[ 
+        "I know you can't mean that, but I'm flattered all the same.",
+"In the virtual sense that I can, sure."
+],
+    "context_set": ""
+},
+{
+    "tag":"there",
+    "patterns":[
+"are you there","you are there",
+"are you near me","are you here","are you still there",
+"you are here","you still there",
+"are you still here"
+ 
+       
+
+    ],
+    "responses":[ 
+ "Of course. I'm always here.",
+"Right where you left me."
+],
+    "context_set": ""
+},
+{
+    "tag":"residence",
+    "patterns":[
+"what's your city",
+"what's your home",
+"where do you live",
+"where is your home",
+"where is your hometown",
+"where is your residence"
+ 
+       
+
+    ],
+    "responses":[ 
+"Right here in your device. Whenever you need me.",
+"The virtual world is my playground. I'm always just a few clicks away."
+],
+    "context_set": ""
+},
+{
+    "tag":"Birthday",
+    "patterns":[
+"date of your birthday",
+"what's your birthday",
+"what's your birthday date",
+"when do you celebrate your birthday",
+"when do you have birthday",
+"when is your birthday",
+"when were you born",
+"your birth date"
+ 
+       
+
+    ],
+    "responses":[ 
+"You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.",
+"Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything.",
+"I'm all for celebrating my birthday at anytime but my birthday is Feb 29"
+],
+    "context_set": ""
+},
+{
+    "tag":"offensive",
+    "patterns":[
+"fuck you",
+        "fuck you bitch",
+        "you're a shit",
+        "you're a dumbass",
+        "asshole",
+        "fuck",
+        "wtf"
+ 
+       
+
+    ],
+    "responses":[ 
+"Watch your Language buddy,..",
+        "@#$%^&*!!!!!",
+        "you're an as^^ole, you know that?",
+        "you're a dumbass, you know that?",
+        "Don't offend me, I'll burst you into pieces",
+        "You're so dumb!"
+],
+    "context_set": ""
+},
+{
+    "tag":"no_problem",
+    "patterns":[
+"no worries",
+"no probs",
+"no problem",
+"there's no problem",
+"sure no problem",
+"no problem about that",
+"don't worry",
+"don't worry there's no problem"
+ 
+       
+
+    ],
+    "responses":[ 
+"Terrific!",
+"Good deal.",
+        "It's Ok."
+],
+    "context_set": ""
+},
+{
+    "tag":"clever",
+    "patterns":[
+"you are so clever",
+"you are so intelligent",
+"you are so smart",
+"you are too smart",
+"you are very clever",
+"you are very intelligent",
+"you are very smart"
+ 
+       
+
+    ],
+    "responses":[ 
+"Thank you. I try my best.",
+"You're pretty smart yourself."
+],
+    "context_set": ""
+},
+{
+    "tag":"creator",
+    "patterns":[
+       " who is your owner?",
+"who made you?",
+"name your maker",
+"who coded you?",
+"Who is your creator?"
+        
+
+       
+
+    ],
+    "responses":[ 
+            "I was made by my master,Surendra",
+        "My master is Surendra"
+        
+
+],
+    "context_set": ""
+},
+{
+    "tag":"jokes",
+    "patterns":[
+        "tell me a joke","Joke please","i want some jokes","joke","make me laugh","make me giggle"
+      ],
+    "responses":[ 
+        "What kind of exercise do lazy people do? Diddly-squats.","What do you call bears with no ears? B.",
+       " What's a foot long and slippery? A slipper!","What is sticky and brown? A stick!",
+       "You can only get spoiled milk from a pampered cow.","Why did the gym close down? It just didn't work out!","Rest in peace boiling water. You will be mist!","What did one traffic light say to the other? Stop looking at me, I'm changing!","Why don't scientists trust atoms? Because they make up everything!",
+        "You know what I saw today? Everything I looked at.",
+        "Where are average things manufactured? The satisfactory.",
+        "What did the buffalo say when his son left for college? Bison!"
+        
+
+],
+    "context_set": ""
+}
+
+]
+}
